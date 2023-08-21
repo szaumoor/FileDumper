@@ -12,10 +12,10 @@ Unzip the contents whenever you want the program to extract files from subdirect
 You'll find 4 scripts. Two of them for Windows, and the other two for Linux. Of those two, one empties only the first subfolder level, and the other recursively empties everything. The scripts will not work unless they are at the same location as the .jar file.
 
 You can either double click on the appropriate script depending on your needs and the system you're running on, or use commands in a terminal or cmd (Windows). The command to execute the program is: 
-...
-java -jar FileDumper.jar
-...
-followed by either 'true' or 'false' depending on whether you want it to be a recursive copy or not, respectively.
+```
+java -jar FileDumper.jar [choice]
+```
+Where choice can be either 'true' or 'false', depending on whether you want it to be a recursive copy or not, respectively.
 
 After some time, you'll get a small window popup telling you the process was finished. Bear in mind the program does not give you any feedback about what it's doing unless you execute it from a terminal. It will only notify you of either an error (crash) or a finished job. The time this takes varies depending on the depth of the directory tree and the size of the files to copy.
 
