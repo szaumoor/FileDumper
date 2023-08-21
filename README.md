@@ -15,7 +15,7 @@ You can either double click on the appropriate script depending on your needs an
 ```
 java -jar FileDumper.jar [choice]
 ```
-Where choice can be either 'true' or 'false', depending on whether you want it to be a recursive copy or not, respectively.
+Where 'choice' can be either 'true' or 'false', depending on whether you want it to be a recursive copy or not, respectively.
 
 After some time, you'll get a small window popup telling you the process was finished. Bear in mind the program does not give you any feedback about what it's doing unless you execute it from a terminal. It will only notify you of either an error (crash) or a finished job. The time this takes varies depending on the depth of the directory tree and the size of the files to copy.
 
